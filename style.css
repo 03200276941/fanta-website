@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+nav {
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+nav a, nav i {
+    color: #fff;
+    font-size: 1.5vw;
+    text-decoration: none;
+    z-index: 600;
+}
+.center-nav {
+    display: flex;
+    gap: 3vw;
+}
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, orange, rgb(190, 30, 2));
+}
+.fanta {
+    position: absolute;
+    width: 45%;
+    z-index: 10000;
+}
+.orange-slice {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    z-index: 500;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.orange {
+    width: 15%;
+    position: absolute;
+    z-index: 55555;
+    top: 60%;
+    right: 38%;
+    z-index: 10001;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.one h1 {
+    position: absolute;
+    font-size: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.two {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1f1200;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.leave1 {
+    position: absolute;
+    width: 15%;
+    top: 21%;
+    transform: rotate(95deg);
+    left: 0%;
+    z-index: 2000;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.leave2 {
+    position: absolute;
+    width: 18%;
+    top: 57%;
+    left: 80%;
+    z-index: 2000;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.leave3 {
+   position: absolute;
+    width: 20%;
+    top: 0; /* Move to the top of the body */
+    right: 0; /* Align to the right edge of the body */
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.left-two, .right-two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    gap: 5vh;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+.left-two svg{
+    margin-top:50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+.right-two h1{
+    
+    color: #fff;
+    font-size: 5vw;
+
+}
+.right-two p{
+    color: #fff;
+    font-size: 1vw;
+    width: 80%;
+
+}
+.three {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  
+
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, orange, rgb(190, 30, 2));
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+ .card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    width: 25vw;
+    height: 70vh;
+    gap: 2vh;
+    border-radius: 20px;
+    background-color: white;
+ }
+ .card h1 {
+    font-size: 3vw;
+    margin-top: 40vh;
+
+ }
+ .card button {
+    position: absolute;
+    font-size: 1vw;
+    padding: 1vw 2vw ;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 50px;
+ }
+#cocacola{
+    margin-top: -82%;
+    position: absolute;
+    transform: translate(-50% 0%);
+    width: 150%;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+#pepsi{
+    margin-top: -82%;
+    position: absolute;
+    transform: translate(-50% 0%);
+    width: 135%;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+#lemon{
+    top: -8vw;
+    position: absolute;
+    width: 30vw;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translate(-50% 0%);
+}
+#lemon1{
+    top: -8vw;
+    position: absolute;
+    width: 30vw;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translate(-50% 0%);
+}
