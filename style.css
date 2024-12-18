@@ -161,6 +161,7 @@ nav a, nav i {
 
  }
  .card button {
+    margin-top: 30vh;
     position: absolute;
     font-size: 1vw;
     padding: 1vw 2vw ;
